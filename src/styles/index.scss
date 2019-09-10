@@ -1,13 +1,19 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.jumbotron{
+    margin-top: 90px;
+}
+.footer{
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+.container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}

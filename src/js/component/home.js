@@ -10,20 +10,22 @@ import { Bottom } from "./Bottom.js";
 export const Home = () => {
 	return (
 		<React.Fragment>
-			<div className="container-fluid">
-				<NavBar />
-				<TagLine />
+			<NavBar />
+			<TagLine />
+			<div className="container">
 				<div className="row">
-					<Card
-						content="This is the first content."
-						tucan="Clik ME 1"
-					/>
-					<Card content="This is the second content." />
-					<Card
-						content="This is the Third content."
-						tucan="Clik ME 3"
-					/>
-					<Card content="This is the fourth content." />
+					<div className="card-deck">
+						<Card
+							content="This is the first content."
+							tucan="Clik ME 1"
+						/>
+						<Card content="This is the second content." />
+						<Card
+							content="This is the Third content."
+							tucan="Clik ME 3"
+						/>
+						<Card content="This is the fourth content." />
+					</div>
 				</div>
 			</div>
 			<div className="footer">

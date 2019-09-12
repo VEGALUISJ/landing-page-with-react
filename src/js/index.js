@@ -10,8 +10,6 @@ import "../styles/index.scss";
 
 //import your own components
 import { Home } from "./component/home.js";
-import { Bottom } from "./component/Bottom.js";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
-ReactDOM.render(<Bottom />, document.querySelector("#app1"));

@@ -1,19 +1,21 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 .jumbotron{
+    margin: auto;
     margin-top: 90px;
 }
 .footer{
     margin-top: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
-    background-color: grey;
+    background-color: black;
     color: white;
 }
 .container-fluid{
-    padding-left: 50px;
+    margin: auto;
     padding-right: 50px;
+    padding-left: 50px;
 }
